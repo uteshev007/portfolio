@@ -59,6 +59,7 @@ li {
 .home {
   display: flex;
   align-items: center;
+  height: 90vh;
 }
 .info_name {
   font-size: 3rem;
