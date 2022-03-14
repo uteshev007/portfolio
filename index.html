@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
             </ul>
         </div>
     </header>
-    <section class="home">
+    <section id="home" class="home">
         <div class="info">
             <div class="info_name">Askhat Uteshev</div>
             <p class="info_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam cum tenetur asperiores quae neque provident optio dicta sequi consectetur reprehenderit. Voluptas nobis praesentium amet, consectetur at ullam soluta eveniet facere!</p>
@@ -26,5 +27,53 @@
         </div>
         <div class="selfie"><img src="./src/images/WhatsApp Image 2022-03-13 at 20.04.04.jpeg" alt=""></div>
     </section>
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="about_title">
+                        <div>Who Am I</div>
+                        <h2>About me</h2>
+                        <div></div>
+                    </div>               
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="about_skill">
+                        <h3>Hello, I am</h3>
+                        <p class="info_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consectetur repellendus corrupti? Rem, vitae ex saepe magni omnis numquam accusamus ullam eos similique voluptatum adipisci, dicta veritatis quisquam expedita nulla!</p>
+                        <div class="progress_bar">
+                            <div class="html">
+                                <label for="html_progress">HTML</label>
+                                <progress id="html_progress" value="70" max="100"></progress>
+                            </div>
+                            <div class="css">
+                                <label for="css_progress">CSS</label>
+                                <progress id="css_progress" value="70" max="100"></progress>
+                            </div>
+                            <div class="js">
+                                <label for="JS_progress">JavaScript</label>
+                                <progress id="JS_progress" value="70" max="100"></progress>
+                            </div>
+                            <div class="photoshop">
+                                <label for="PS_progress">Photoshop</label>
+                                <progress id="PS_progress" value="70" max="100"></progress>
+                            </div>   
+                        </div>
+                        <div class="progress_button">
+                            <a class="info_button" href="#home">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6"><img src="./src/images/man.jpeg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="./src/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

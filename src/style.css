@@ -5,7 +5,6 @@ html {
   font-family: "Poppins", sans-serif;
 }
 body {
-  max-width: 1200px;
   margin: auto;
 }
 header {
@@ -59,7 +58,7 @@ li {
 .home {
   display: flex;
   align-items: center;
-  height: 90vh;
+  height: 95vh;
 }
 .info_name {
   font-size: 3rem;
@@ -89,4 +88,56 @@ li {
   background-color: #fff;
   color: #7549ff;
   transition: 0.5s;
+}
+.about_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.about_title div:first-child {
+  color: #7549ff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+.about_title h2 {
+  color: #111;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.about_title div:last-child {
+  background-color: #7549ff;
+  height: 4px;
+  width: 90px;
+  border-radius: 25px;
+}
+.about {
+  height: 100vh;
+}
+.about .row:last-child {
+  align-items: center;
+}
+.about_skill h3 {
+  font-weight: bold;
+}
+.progress_bar .html progress {
+  height: 9px;
+  width: 60%;
+}
+progress::-webkit-progress-value {
+  background: #7549ff;
+  border-radius: 25px;
+}
+progress::-webkit-progress-bar {
+  background: #ece6fa;
+  border-radius: 25px;
+}
+.progress_bar .html {
+  display: flex;
+  flex-direction: column;
+}
+.html label {
+  margin-bottom: 10px;
 }
