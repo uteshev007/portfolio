@@ -12,6 +12,9 @@ header {
   align-items: center;
   width: 100%;
 }
+.logo_nav {
+  display: flex;
+}
 .logo {
   color: #7549ff;
   cursor: pointer;
@@ -59,6 +62,15 @@ li {
   display: flex;
   align-items: center;
   height: 95vh;
+}
+.home .row:first-child {
+  align-items: center;
+}
+.home .row:last-child {
+  align-items: center;
+}
+.info {
+  align-items: center;
 }
 .info_name {
   font-size: 3rem;
@@ -122,9 +134,15 @@ li {
 .about_skill h3 {
   font-weight: bold;
 }
-.progress_bar .html progress {
-  height: 9px;
-  width: 60%;
+.progress_bar .html progress,
+.css progress,
+.js progress,
+.photoshop progress {
+  height: 10px;
+  width: 70%;
+}
+.progress_bar {
+  margin-bottom: 40px;
 }
 progress::-webkit-progress-value {
   background: #7549ff;
@@ -134,10 +152,16 @@ progress::-webkit-progress-bar {
   background: #ece6fa;
   border-radius: 25px;
 }
-.progress_bar .html {
+.progress_bar .html,
+.css,
+.js,
+.photoshop {
   display: flex;
   flex-direction: column;
 }
-.html label {
+.html label,
+.css label,
+.js label,
+.photoshop label {
   margin-bottom: 10px;
 }
